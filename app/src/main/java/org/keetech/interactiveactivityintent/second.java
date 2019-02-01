@@ -3,6 +3,7 @@ package org.keetech.interactiveactivityintent;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
@@ -24,6 +25,7 @@ public class second extends AppCompatActivity {
 
 
         switch (cal){
+            Log.i("gdgd","하이루");
             case "add" : value = num1+num2;break;
             case "subtract" : value = num1-num2;break;
             case "multiply" : value= num1*num2;break;
